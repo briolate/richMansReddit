@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 125px;
+  background-color: #C5CBE3;
+  font-family: 'Avenir';
+}
+
+header {
+  background-image: url('../images/pho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 340px;
+  position: fixed;
+  top: 0;
+  transition: top 0.4s ease-in-out;
+  width: 100%;
+  z-index: -1;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px #C5CBE3;
+  font-size: 100px;
+  text-align: center;
+}
+
+a {
+  color: #D79922;
+  text-decoration: none;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+}
+
+img:hover {
+  position: relative;
+  top: -2px;
+  box-shadow: 4px 4px 20px #000;
+}
+
+.search {
+  margin-left: 20px;
+}
+
+.title {
+  padding-bottom: 3px;
+}
+
+.post {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+.author {
+  color: #4056A1;
+  font-weight: bold;
+}
+
+.score {
+  color: #E85A4F;
+  border-bottom: 2px solid #C5CBE3;
+}
+
+.container {
+  margin: 120px 0 0 20px;
+  background-color: #FDFDFD;
+  width: 80%;
+}
+
+.nav-up {
+  top: -340px;
+}
