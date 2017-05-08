@@ -1,6 +1,6 @@
 var app = angular.module('redditModule');
 
-app.controller('redditCtrl', function($scope, $http) {
+app.controller('redditController', function($scope, $http) {
   $scope.posts = [];
 
   $scope.getReddit = function(subreddit) {
