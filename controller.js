@@ -8,9 +8,7 @@ app.controller('redditController', function($scope, $http) {
   $http({
     method: 'GET',
     url: 'http://www.reddit.com/r/' + subreddit.replace(/ /g,"_") + '.json',
-    params: {
-      limit: '52'
-    }
+    params: { limit: '52' }
   }).then(function successCallback(response) {
     console.log(response.data.data.children);
     $scope.posts = response.data.data.children;
